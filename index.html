@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | B.S.R. Manikanta Sai</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo"><img src="./ChatGPT_Image_Sep_5__2025__10_43_40_PM-removebg-preview.png" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <img src="23A91A0578__1_-removebg-preview.png" alt="Profile Picture">
+    <h2>Hi, I'm <span style="color:#38bdf8; animate__flipInY">B.S.R. Manikanta Sai</span></h2>
+    <p>Web Developer | Designer | Programmer</p>
+    <div class="btns">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="./B.Sri Rama Resume (2).pdf" class="btn btn-outline">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+      <img src="./2842579.jpg" alt="About Image">
+      <br>
+      <div class="about-text">
+        <h3>I'm a Aspiring Developer</h3>
+        <p>
+          Hi, I’m <strong>Bonthu Sri Rama Manikanta Sai</strong>, a Computer Science and Engineering student with a
+          strong interest in
+          <span style="color:#38bdf8;">Web Development, Java Programming, and Problem-Solving</span>.
+          <br><br>
+          I love building projects that solve real-world problems — from hospital queue management systems and QuickFix
+          Online Service Platform.
+          I'm actively learning <strong>Java, DSA, React</strong>, and expanding into <strong>Web Develepoment with
+            React</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      
+      <a href="https://23a91a0578.github.io/MediQ-Hospital-Queue-Management-System/" target="_blank">
+        <div class="project-card">
+          <img src="./What-is-a-Hospital-Queue-Management-System.jpg" alt="" >
+          <h3>🏥MediQ - Hospital Queue Management</h3>
+          <p>Smart platform for reducing patient waiting time.</p>
+          <ul>
+            <li>Online token system</li>
+            <li>Real-time queue status</li>
+            <li>Doctor, staff, patient dashboards</li>
+          </ul>
+        </div>
+      </a>
+      <a href="https://23a91a0578.github.io/weather-app/" target="_blank">
+        <div class="project-card">
+          <img src="./featured.png" alt="">
+          <h3>🌤️Weather Web</h3>
+          <p>Responsive weather app with real-time API integration.</p>
+          <ul>
+            <li>City-wise forecast</li>
+            <li>Dynamic backgrounds</li>
+            <li>Dark/Light mode</li>
+          </ul>
+        </div>
+      </a>
+      <div class="project-card">
+        <img src="QuickFix-Logo-Slogan.png" alt="">
+        <h3>🛠️QuickFix - Online Services</h3>
+        <p>Platform to connect users with home service providers.</p>
+        <ul>
+          <li>Service booking system</li>
+          <li>Live tracking</li>
+          <li>User dashboard</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education">
+      <div class="edu-card">
+        <h3>B.Tech in Computer Science</h3>
+        <span>Aditya University (2023 – 2027)</span>
+        <br>
+        <span>CGPA: 8.70</span>
+      </div>
+      <div class="edu-card">
+        <h3>Intermediate – MPC</h3>
+        <span>Aditya Junior College (2021 – 2023)</span>
+        <br>
+        <span>Percentage: 94.5%</span>
+      </div>
+      <div class="edu-card">
+        <h3>Secondary Education (X)</h3>
+        <span>Dr.KKR's Gowtham Concept School (2019 – 2020)</span>
+        <br>
+        <span>Percentage: 98.7%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h1 class="section-title">Skills</h1>
+    <div class="skills-nav">
+      <ul>
+        <li><a href="#skills" class="active-card" onclick="showskill('Programming')">Programming</a></li>
+        <li><a href="#skills" onclick="showskill('Web')">Web Technologies</a></li>
+        <li><a href="#skills" onclick="showskill('Database')">Databases</a></li>
+        <li><a href="#skills" onclick="showskill('Tools')">Tools and Platforms</a></li>
+        <!-- <li><a href="#skills" onclick="showskill('Programming')">Design</a></li> -->
+      </ul>
+    </div>
+    <div class="skills-tabs" id="skills">
+      <div id="Programming" style="display: flex; gap: 20px;">
+        <div class="skill-card">
+          <img src="./java.png" alt="Java">
+          <h3>Java</h3>
+        </div>
+        <div class="skill-card">
+          <img src="./letter-c.png" alt="C">
+          <h3>C</h3>
+        </div>
+        <div class="skill-card">
+          <img src="./python.png" alt="">
+          <h3>Python</h3>
+        </div>
+      </div>
+      <div id="Web" style="display: none; gap: 20px;">
+
+        <div class="skill-card">
+          <img src="./html (1).png" alt="">
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <img src="./css-3.png" alt="">
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <img src="./js.png" alt="">
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+
+      <div id="Database" style="display: none;">
+        <div class="skill-card">
+          <img src="./database.png" alt="">
+          <h3>MySQL</h3>
+        </div>
+      </div>
+      <div id="Tools" style="display: none; gap: 20px;">
+        <div class="skill-card">
+          <img src="./github (2).png" alt="">
+          <h3>Git & Github</h3>
+        </div>
+        <div class="skill-card">
+          <img src="./photoshop.png" alt="">
+          <h3>Photoshop</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Coding Profiles Section -->
+  <section id="coding-profiles">
+    <h2 class="section-title">💻 Coding Profiles</h2>
+    <div class="profiles">
+      <a href="https://leetcode.com/u/Sriram_bonthu/" target="_blank">
+        <i class="fas fa-code"></i> LeetCode
+      </a>
+      <a href="https://www.geeksforgeeks.org/user/srirambozmlp/" target="_blank">
+        <i class="fas fa-laptop-code"></i> GeeksforGeeks
+      </a>
+      <a href="https://www.hackerrank.com/profile/srirambonthu767" target="_blank">
+        <i class="fab fa-hackerrank"></i> HackerRank
+      </a>
+      <a href="https://www.codechef.com/users/sriram767" target="_blank">
+        <i class="fas fa-utensils"></i> Codechef
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <!-- <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    
+     <div class="contact">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div> -->
+  <!-- </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" style="padding: 20px;">
+    <h2 class="section-title" ">📬 Contact Me</h2>
+  <div class=" contact-icons"
+      style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center; margin-top: 20px; padding-top: 30px;">
+      <!-- Email -->
+      <a href="mailto:srirambonthu767@gmail.com" target="_blank" title="Email" style="color: white;">
+        <i style="color: white;" class="fas fa-envelope"></i><p>srirambonthu767@gmail.com</p>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/sriram-bonthu-207213355" target="_blank" title="LinkedIn"
+        style="color: white;">
+        <i class="fab fa-linkedin"></i>
+        <p>Sriram Bonthu</p>
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/916304011895" target="_blank" title="WhatsApp" style="color:white;">
+        <i class="fab fa-whatsapp"></i>
+        <p>+91 6304011895</p>
+      </a>
+      </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 B.S.R. Manikanta Sai | All Rights Reserved</p>
+  </footer>
+  <script>
+    function showskill(sectionID) {
+      document.getElementById("Programming").style.display = "none";
+      document.getElementById("Web").style.display = "none";
+      document.getElementById("Database").style.display = "none";
+      document.getElementById("Tools").style.display = "none";
+
+      document.getElementById(sectionID).style.display = "flex";
+    }
+  </script>
+</body>
+
+</html>
