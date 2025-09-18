@@ -486,7 +486,7 @@
   transform: translateY(-20px);
 }
 
-@media (max-width: 322px) {
+@media (max-width: 376px) {
   body{
     padding-left: 10px;
     padding-right: 10px;
